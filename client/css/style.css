@@ -1,0 +1,78 @@
+body{ 
+    display: block;
+    background-repeat: repeat;
+    background-image: url("../img/bg.png");
+}
+.logo {
+    height: 20vh;
+    width: 20vh;
+    display: block;
+    margin: auto;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: skyblue;
+    height: 60vh;
+    width: 70vw; /* Changed to viewport width */
+    display: block;
+    margin: auto;
+    overflow-y: auto;
+}
+
+.message {
+    background-color: yellow;
+}
+
+.left {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    float: left;
+    clear: both;
+}
+
+.right {
+    clear: both;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    float: right;
+}
+
+#send-container {
+    text-align: center;
+    position: fixed;
+    border: 2px double whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    display: block;
+    width: 68.3vw;
+    bottom: 10vh;
+}
+
+/* Media query for screens with a maximum width of 600 pixels (adjust as needed) */
+
+
+#msg-input {
+    font-size: 20px;
+    padding: 1vh; /* Adjusted for better spacing */
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: skyblue;
+    width: 50vw; /* Changed to viewport width */
+}
+
+.btn {
+    height: 4vh;
+    width: 10vh;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
